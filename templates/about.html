@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/app.css')}}">
+    <title>about</title>
+  </head>
+  <body>
+
+    {% extends "template.html" %}
+    {% block content %}
+        <h1>About {{ aboutName }}</h1>
+        <h2>AI KHA PHI TRAN</h2>
+        <h4> SUMMARY</h4>
+        <p> Hardworking employee with
+            customer service, multitasking and
+            time management abilities.
+            Devoted to giving every customer a
+            positive and memorable
+            experience. Motivated IT student
+            seeking internship in Web
+            Development to gain hands-on
+            experience. Outgoing and friendly
+            with strong drive to succeed.</p>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h6>SKILLS</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item">Java/ JavaScript, Python,
+                            MySQL, HTML/CSS</li>
+                        <li class="list-group-item">Word/Excel, Windows
+                            Photoshop, Illustrator, After
+                            Effect</li>
+                        <li class="list-group-item">Visual Basic, Tableau</li>
+                        <li class="list-group-item">Piano, Photographic, and
+                            Multimedia content creation</li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <h6>CONTACT INFORMATION</h6>
+                    <ul class="list-group">
+                        <li class="list-group-item">Address: Columbus, GA 31909
+                        </li>
+                        <li class="list-group-item">Phone number: 706-xxx-xxxx</li>
+                        <li class="list-group-item">Gmail: trankhaxxxxxxxx@gmail.com
+                        </li>
+                        <li class="list-group-item">DOB: May 20,1995</li>
+                    </ul>
+                  </div>
+                </div>
+                <h2>EXPERIENCE</h2>
+                <div class="row">
+                  <div class="col">
+                    <h6>June 2020 - August 2022</h6>
+                    <h4>IT Help Desk Technician Columbus State University</h4>
+                    <p>I Assisted customers with various types of technical issues via email, live
+                        chat and telephone.I also created new accounts, reset passwords and configured access to
+                        servers and file management software for users</p>
+                  </div>
+                  <div class="col">
+                    <h6>August 2022 - October 2022</h6>
+                    <h4>Internship Student Amazon Web Services</h4>
+                    <p>I created a portfolio site in AWS. I have completed ten (10) modules in AWS Academy Cloud Foundations and also complete three (3) labs in AWS Academy Learner Lab - Foundation Services</p>
+                  </div>
+                  <div class="col">
+                    <h6>January 2016 - Current
+                    </h6>
+                    <h4>Professional Nail Technician Elegant Nails</h4>
+                    <p>I Build a repeat client base to increase profits and stabilize cash flow. I also create social media ads (Facebook ads, Google ads) for the nail shop</p>
+                  
+                  </div>
+                </div>
+              </div>
+    {% endblock %}
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
